@@ -21,25 +21,25 @@ body {
   // background-repeat: no-repeat;
  }
 
-.col-1 {
-  flex: 0 0 auto;
-  width: 8.33333333%; }
+// .col-1 {
+//   flex: 0 0 auto;
+//   width: 8.33333333%; }
 
-.col-10 {
-  flex: 0 0 auto;
-  width: 83.3333333%; }
+// .col-10 {
+//   flex: 0 0 auto;
+//   width: 83.3333333%; }
 
-.col-4 {
-  flex: 0 0 auto;
-  width: 33.3333333%; }
+// .col-4 {
+//   flex: 0 0 auto;
+//   width: 33.3333333%; }
 
-.col-6 {
-  flex: 0 0 auto;
-  width: 50%; }
+// .col-6 {
+//   flex: 0 0 auto;
+//   width: 50%; }
 
-.col-8 {
-  flex: 0 0 auto;
-  width: 66.6666667%; }
+// .col-8 {
+//   flex: 0 0 auto;
+//   width: 66.6666667%; }
 
 //   .s1{
 //     display: none;
@@ -84,26 +84,25 @@ body {
  #video--arrow{
    margin-left: 1.5rem;
  }
+
+ .intro__container{
+  flex: 1 1 auto;
+ }
  .intro{
     height: 100vh;
     font-family: mosk;
     position: relative;
     z-index: 100;
     overflow: hidden;
- }
- .frame{
-   margin: 2.4rem;
-   height: calc(100vh - 4.8rem);
-   width: calc(100vw - 4.8rem);
-  //  background-color: #d2c7d5;
-  //  background: url(img/back2.jpg);
-   background-size: cover;
-   background-position: center;
-   position: relative;
-   z-index: 200;
+    display: flex;
+    flex-direction: column;
 
     &__content{
       display: flex;
+      height: 100%;
+      align-items: center;
+      position: relative;
+      z-index: 200;
     }
 
     &__hello{
@@ -119,7 +118,7 @@ body {
     }
 
     &__title{
-      padding: 5.5rem 0 0 6rem;
+      padding-left: 6rem;
       display: inline-block;
 
       &--intro{
@@ -372,186 +371,6 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
 @include btn__split($colorPrimary, $colorSecondary, $black);
 
-.navbar{
-  display: flex;
-  height: 6.5rem;
-  z-index: 100;
-    position: relative;
-  // animation: moveUp 1s ease-in-out backwards;
-
-  &__menu{
-    margin-top: 2rem;
-
-    &--wrap{
-      margin-right: 1rem;
-      display: flex;
-      justify-content: flex-end;
-
-      & > a{
-        width: 9rem;
-        // line-height: 2rem;
-        // height: 2.6rem;
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.8rem;
-        font-family: muli;
-        color: $text-color;
-        font-weight: 700;
-        margin:  0 2rem;
-        padding: 1.6rem 1rem;
-        // box-shadow: inset 0 -1rem 0 -1px white;
-        transition: all 0.25s ease;
-        // display: flex;
-        // align-items: end;
-
-        &:hover{
-          // box-shadow: inset 0 -2rem 0 1rem white;
-          background-image: url(img/hover.png);
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat ;
-        }
-      }
-    }  
-  }
-}
-
-// .animate{
-//   animation: moveUp 1s ease-in-out backwards;
-// }
-
-.navbar1{
-  display: flex;
-  height: 6.5rem;
-  z-index: 100;
-    position: relative;
-  // animation: moveUp 1s ease-in-out backwards;
-
-  &__menu{
-    margin-top: 2rem;
-
-    &--wrap{
-      margin-right: 1rem;
-      display: flex;
-      justify-content: flex-end;
-
-      & > a{
-        width: 9rem;
-        // line-height: 2rem;
-        // height: 2.6rem;
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.8rem;
-        font-family: muli;
-        color: $text-color;
-        font-weight: 700;
-        margin:  0 2rem;
-        padding: 1.6rem 1rem;
-        // box-shadow: inset 0 -1rem 0 -1px white;
-        transition: all 0.25s ease;
-        // display: flex;
-        // align-items: end;
-
-        &:hover{
-          // box-shadow: inset 0 -2rem 0 1rem white;
-          background-image: url(img/hover.png);
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat ;
-        }
-      }
-    }  
-  }
-}
-
-.navbar2{
-  display: flex;
-  height: 6.5rem;
-  z-index: 100;
-    position: relative;
-  // animation: moveUp 1s ease-in-out backwards;
-
-  &__menu{
-    margin-top: 2rem;
-
-    &--wrap{
-      margin-right: 1rem;
-      display: flex;
-      justify-content: flex-end;
-
-      & > a{
-        width: 9rem;
-        // line-height: 2rem;
-        // height: 2.6rem;
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.8rem;
-        font-family: muli;
-        color: $text-color;
-        font-weight: 700;
-        margin:  0 2rem;
-        padding: 1.6rem 1rem;
-        // box-shadow: inset 0 -1rem 0 -1px white;
-        transition: all 0.25s ease;
-        // display: flex;
-        // align-items: end;
-
-        &:hover{
-          // box-shadow: inset 0 -2rem 0 1rem white;
-          background-image: url(img/hover.png);
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat ;
-        }
-      }
-    }  
-  }
-}
-
-.navbar3{
-  display: flex;
-  height: 6.5rem;
-  z-index: 100;
-  position: relative;
-  // animation: moveUp 1s ease-in-out backwards;
-
-  &__menu{
-    margin-top: 2rem;
-
-    &--wrap{
-      margin-right: 1rem;
-      display: flex;
-      justify-content: flex-end;
-
-      & > a{
-        width: 9rem;
-        // line-height: 2rem;
-        // height: 2.6rem;
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.8rem;
-        font-family: muli;
-        color: $text-color;
-        font-weight: 700;
-        margin:  0 2rem;
-        padding: 1.6rem 1rem;
-        // box-shadow: inset 0 -1rem 0 -1px white;
-        transition: all 0.25s ease;
-        // display: flex;
-        // align-items: end;
-
-        &:hover{
-          // box-shadow: inset 0 -2rem 0 1rem white;
-          background-image: url(img/hover.png);
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat ;
-        }
-      }
-    }  
-  }
-}
-
 @keyframes moveUp{
   from{
     opacity: 0;
@@ -582,6 +401,8 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .about{
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   // background-color: #fef8b4;
   // background: url(img/back1.jpg);
@@ -591,8 +412,19 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   z-index: 100;
   overflow: hidden;
 }
+.infobox__container{
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+
+  // animation: moveUp 1s ease-in-out 2s backwards;
+}
+
 .infobox{
-  margin: 12rem auto 0;
+
   max-width: 60vw;
   background-color: white;
   font-family: mosk;
@@ -600,7 +432,6 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   border: 3px solid $text-color;
   color: $text-color;
   z-index: 50;
-  // animation: moveUp 1s ease-in-out 2s backwards;
 
   &::before{
     // content: '';
@@ -747,6 +578,17 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   position: relative;
   z-index: 100;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &__container{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
 
   &__box{
     width: 80vw;
@@ -755,7 +597,6 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     position: relative;
     z-index: 100;
     flex-wrap: wrap;
-    margin: 3rem auto;
   }
 }
 
@@ -784,7 +625,7 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   &__title{
     display: inline-block;
     color: #404040;
-    font-family: neue machina;
+    font-family: mosk;
     font-size: 3rem;
     font-weight: 900;
     padding: 0 2rem;
@@ -812,6 +653,17 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   position: relative;
   z-index: 100;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &__container{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
 
   &__box{
     width: 80vw;
@@ -819,13 +671,12 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     justify-content: space-around;
     position: relative;
     flex-wrap: wrap;
-    margin: 3rem auto;
     z-index: 100;
   }
 }
 
 .project{
-  margin: 0rem auto 2rem;
+  margin: 0rem auto 4rem;
   width: 45%;
   height: 22rem;
   background-color: #f7f7f7;
@@ -888,23 +739,43 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
 .blueplanet{
   position: absolute;
-  top: -60%;
+  top: 0;
   left: 0;
+  width: 37.78%;
+
+  & > img{
+    width: 100%;
+  }
 }
 .lightblueplanet{
   position: absolute;
-  top: -30%;
+  top: 0%;
   right: 0;
+  width: 29.94%;
+
+  & > img{
+    width: 100%;
+  }
 }
 .orangeplanet{
   position: absolute;
   top: 45%;
   right: 40%;
+  width: 16.47%;
+
+  & > img{
+    width: 100%;
+  }
 }
 .redplanet{
   position: absolute;
-  bottom: -80%;
+  bottom: 0;
   right: 0;
+  width: 50.81%;
+
+  & > img{
+    width: 100%;
+  }
 }
 .space{
   position: absolute;
@@ -941,12 +812,17 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .redsmallplanet{
   position: absolute;
-  top: -25%;
+  top: 0%;
   left: 45%;
+  width: 20.42%;
+  
+  & > img{
+    width: 100%;
+  }
 }
 .coconut{
   position: absolute;
-  bottom: -35%;
+  bottom: -2%;
   left: 0;
   width: 100%;
 
@@ -955,19 +831,24 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 }
 .bigballoon{
-  height: 50%;
+  width: 19.03%;
   position: absolute;
   top: 5%;
   left: 5%;
 
   & > img{
-    height: 100%;
+    width: 100%
   }
 }
 .smallballoon{
   position: absolute;
   top: 10%;
   right: 0;
+  width: 13.18%;
+
+  & > img{
+    width: 100%
+  }
 }
 
 
@@ -1009,27 +890,42 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   position: absolute;
   top: 0;
   left: 0;
+  width: 18.23%;
+
+  & > img{
+    width: 100%;
+  }
 }
 .birds1{
   position: absolute;
   top: 10%;
   left: 10%;
+  width: 18.23%;
+
+  & > img{
+    width: 100%;
+  }
 }
 .moonlight{
   position: absolute;
   top: 8%;
   right: 8%;
+  width: 9.08;
+
+  & > img{
+    width: 100%;
+  }
 }
 .landscape{
   position: absolute;
-  bottom: -5%;
+  bottom: 0%;
   left: 0;
   width: 100%;
   z-index: 10;
 
-  // & > img{
-  //   width: 100%;
-  // }
+  & > img{
+    width: 100%;
+  }
 }
 .seamountain{
   position: absolute;
@@ -1037,3 +933,19 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   left: 0;
   width: 100%;
 }
+
+.icemountain{
+  & > img{
+    width: 100%;
+  }
+}
+
+.sea{
+  & > img{
+    width: 100%;
+  }
+}
+
+
+@import "components/navbar";
+@import "layout/responsivesm";
