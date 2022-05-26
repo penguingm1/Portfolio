@@ -262,9 +262,9 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
 @mixin btn__split($foregroundColor, $backgroundColor, $textColor) {
 	.hoverbutton {
-    font-family: muli;
+    font-family: mosk;
 		text-decoration: none;
-		font-weight: 700;
+		font-weight: 900;
 		border: 0;
 		//display: block;
 		position: relative;
@@ -608,11 +608,10 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   background-color: #f7f7f7;
   text-align: center;
   // box-shadow: 1.5rem 1.5rem 0 0 #404040;
-  box-shadow: 10px 10px 0 0 #2a0f3f;
+  box-shadow: 10px 10px 0 0 #404040;
   border: 2px solid #404040; 
   padding: 2rem;
   position: relative;
-  border-radius: 1rem;
 
   &__icon{
 
@@ -641,7 +640,6 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
   &:hover{
     background-color: #fef8b4;
-    transition-duration: .6s;
   }
   &:hover &__title{
       background-image: linear-gradient(transparent 50%,#f2c3c0 50%,#f2c3c0 85%,transparent 85%,transparent 100%);
@@ -730,7 +728,6 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   &:hover{
     // border-bottom: 4px solid #404040;
     background-color: #fef8b4;
-    transition-duration: .25s;
   }
   &:hover &__title{
       background-image: linear-gradient(transparent 50%,#f2c3c0 50%,#f2c3c0 85%,transparent 85%,transparent 100%);
@@ -946,6 +943,18 @@ $cubic-bezier: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 }
 
+.u-project-color-1{
+  background-color: #F2DAC3;
+}
+.u-project-color-2{
+  background-color: #eebacb;
+}
+.u-project-color-3{
+  background-color: #a2c3f5;
+}
+.u-project-color-4{
+  background-color: #ffbda6;
+}
 
 @import "components/navbar";
 @import "layout/responsivesm";

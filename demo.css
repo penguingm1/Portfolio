@@ -157,9 +157,9 @@ body {
     transform: translate(0rem, 0); } }
 
 .hoverbutton {
-  font-family: muli;
+  font-family: mosk;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 900;
   border: 0;
   position: relative;
   letter-spacing: 0.15em;
@@ -406,11 +406,10 @@ body {
   height: 22rem;
   background-color: #f7f7f7;
   text-align: center;
-  box-shadow: 10px 10px 0 0 #2a0f3f;
+  box-shadow: 10px 10px 0 0 #404040;
   border: 2px solid #404040;
   padding: 2rem;
-  position: relative;
-  border-radius: 1rem; }
+  position: relative; }
   .skill__icon > img {
     width: 20%; }
   .skill__title {
@@ -427,8 +426,7 @@ body {
     font-size: 1.4rem;
     text-align: center; }
   .skill:hover {
-    background-color: #fef8b4;
-    transition-duration: .6s; }
+    background-color: #fef8b4; }
   .skill:hover .skill__title {
     background-image: linear-gradient(transparent 50%, #f2c3c0 50%, #f2c3c0 85%, transparent 85%, transparent 100%); }
 
@@ -492,8 +490,7 @@ body {
     font-weight: 900;
     padding: 0 2rem; }
   .project:hover {
-    background-color: #fef8b4;
-    transition-duration: .25s; }
+    background-color: #fef8b4; }
   .project:hover .project__title {
     background-image: linear-gradient(transparent 50%, #f2c3c0 50%, #f2c3c0 85%, transparent 85%, transparent 100%); }
 
@@ -664,6 +661,18 @@ body {
 .sea > img {
   width: 100%; }
 
+.u-project-color-1 {
+  background-color: #F2DAC3; }
+
+.u-project-color-2 {
+  background-color: #eebacb; }
+
+.u-project-color-3 {
+  background-color: #a2c3f5; }
+
+.u-project-color-4 {
+  background-color: #ffbda6; }
+
 .navbar {
   display: flex;
   height: 6.5rem;
@@ -673,6 +682,7 @@ body {
     flex: 0 0 auto;
     width: 33.33%; }
   .navbar__menu {
+    padding-top: 2rem;
     width: 66.67%;
     flex: 0 0 auto; }
     .navbar__menu--wrap {
@@ -705,6 +715,7 @@ body {
     flex: 0 0 auto;
     width: 33.33%; }
   .navbar1__menu {
+    padding-top: 2rem;
     width: 66.67%;
     flex: 0 0 auto; }
     .navbar1__menu--wrap {
@@ -737,6 +748,7 @@ body {
     flex: 0 0 auto;
     width: 33.33%; }
   .navbar2__menu {
+    padding-top: 2rem;
     width: 66.67%;
     flex: 0 0 auto; }
     .navbar2__menu--wrap {
@@ -769,6 +781,7 @@ body {
     flex: 0 0 auto;
     width: 33.33%; }
   .navbar3__menu {
+    padding-top: 2rem;
     width: 66.67%;
     flex: 0 0 auto; }
     .navbar3__menu--wrap {
@@ -810,7 +823,8 @@ body {
       justify-content: center; }
       .navbar__menu--wrap > a {
         margin: unset;
-        padding: unset;
+        padding: 1rem 0;
+        font-size: 1.4rem;
         width: 22%; }
   .navbar1__menu {
     width: 100%; }
@@ -819,7 +833,8 @@ body {
       justify-content: center; }
       .navbar1__menu--wrap > a {
         margin: unset;
-        padding: unset;
+        padding: 1rem 0;
+        font-size: 1.4rem;
         width: 22%; }
   .navbar2__menu {
     width: 100%; }
@@ -828,7 +843,8 @@ body {
       justify-content: center; }
       .navbar2__menu--wrap > a {
         margin: unset;
-        padding: unset;
+        padding: 1rem 0;
+        font-size: 1.4rem;
         width: 22%; }
   .navbar3__menu {
     width: 100%; }
@@ -837,7 +853,8 @@ body {
       justify-content: center; }
       .navbar3__menu--wrap > a {
         margin: unset;
-        padding: unset;
+        padding: 1rem 0;
+        font-size: 1.4rem;
         width: 22%; }
   .intro__title {
     padding: 0 4rem; }
@@ -901,12 +918,14 @@ body {
     display: none; }
   .skill {
     padding: 1rem;
-    width: 45%;
-    height: 16rem; }
+    width: 40%;
+    height: 14rem;
+    box-shadow: 0.7rem 0.7rem 0 0 #404040;
+    border-radius: 1rem; }
   .skill__title {
     font-size: 2rem; }
   .skill__content {
-    font-size: 1.2rem; }
+    font-size: 1rem; }
   .skills__box {
     width: 90%; }
   .u-margin-right-sm {
@@ -914,8 +933,13 @@ body {
   .u-margin-left-sm {
     margin-left: 0; }
   .project__title {
-    font-size: 2rem; }
+    font-size: 1.6rem; }
   .project {
-    width: 80%;
-    height: 12rem;
-    margin-bottom: 3rem; } }
+    width: 70%;
+    height: 10rem;
+    margin-bottom: 3rem;
+    box-shadow: 0.7rem 0.7rem 0 0 #404040; }
+  .svg-2 textPath[data-v-4df41337] {
+    font-size: 30px; }
+  .hoverbutton > span {
+    font-size: 2rem; } }

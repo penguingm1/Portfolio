@@ -23,7 +23,8 @@
 
             & > a{
                 margin:unset;
-                padding: unset;
+                padding: 1rem 0;
+                font-size: 1.4rem;
                 width: 22%;
             }
         }
@@ -37,7 +38,8 @@
 
             & > a{
                 margin:unset;
-                padding: unset;
+                padding: 1rem 0;
+                font-size: 1.4rem;
                 width: 22%;
             }
         }
@@ -51,7 +53,8 @@
 
             & > a{
                 margin:unset;
-                padding: unset;
+                padding: 1rem 0;
+                font-size: 1.4rem;
                 width: 22%;
             }
         }
@@ -65,7 +68,8 @@
 
             & > a{
                 margin:unset;
-                padding: unset;
+                padding: 1rem 0;
+                font-size: 1.4rem;
                 width: 22%;
             }
         }
@@ -157,14 +161,16 @@
 
     .skill{
         padding: 1rem;
-        width: 45%;
-        height: 16rem;
+        width: 40%;
+        height: 14rem;
+        box-shadow: 0.7rem 0.7rem 0 0 #404040;
+        border-radius: 1rem;
     }
     .skill__title{
         font-size: 2rem;
     }
     .skill__content{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .skills__box{
         width: 90%;
@@ -177,11 +183,20 @@
         margin-left: 0;
     }
     .project__title{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
+
     .project{
-        width: 80%;
-        height: 12rem;
+        width: 70%;
+        height: 10rem;
         margin-bottom: 3rem;
+        box-shadow: 0.7rem 0.7rem 0 0 #404040;
+    }
+    .svg-2 textPath[data-v-4df41337] {
+        font-size: 30px;
+    }
+
+    .hoverbutton > span{
+        font-size: 2rem;
     }
 }
