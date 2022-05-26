@@ -2,6 +2,18 @@
     #fp-nav{
         display: none;
     }
+    .navbar__logo{
+        display: none;
+    }
+    .navbar1__logo{
+        display: none;
+    }
+    .navbar2__logo{
+        display: none;
+    }
+    .navbar3__logo{
+        display: none;
+    }
     .navbar__menu{
         width: 100%;
 
@@ -11,7 +23,7 @@
 
             & > a{
                 margin:unset;
-                padding: 3rem 0;
+                padding: unset;
                 width: 22%;
             }
         }
@@ -25,7 +37,7 @@
 
             & > a{
                 margin:unset;
-                padding: 3rem 0;
+                padding: unset;
                 width: 22%;
             }
         }
@@ -39,7 +51,7 @@
 
             & > a{
                 margin:unset;
-                padding: 3rem 0;
+                padding: unset;
                 width: 22%;
             }
         }
@@ -53,7 +65,7 @@
 
             & > a{
                 margin:unset;
-                padding: 3rem 0;
+                padding: unset;
                 width: 22%;
             }
         }

@@ -669,8 +669,12 @@ body {
   height: 6.5rem;
   z-index: 100;
   position: relative; }
+  .navbar__logo {
+    flex: 0 0 auto;
+    width: 33.33%; }
   .navbar__menu {
-    margin-top: 2rem; }
+    width: 66.67%;
+    flex: 0 0 auto; }
     .navbar__menu--wrap {
       margin-right: 1rem;
       display: flex;
@@ -697,8 +701,12 @@ body {
   height: 6.5rem;
   z-index: 100;
   position: relative; }
+  .navbar1__logo {
+    flex: 0 0 auto;
+    width: 33.33%; }
   .navbar1__menu {
-    margin-top: 2rem; }
+    width: 66.67%;
+    flex: 0 0 auto; }
     .navbar1__menu--wrap {
       margin-right: 1rem;
       display: flex;
@@ -725,8 +733,12 @@ body {
   height: 6.5rem;
   z-index: 100;
   position: relative; }
+  .navbar2__logo {
+    flex: 0 0 auto;
+    width: 33.33%; }
   .navbar2__menu {
-    margin-top: 2rem; }
+    width: 66.67%;
+    flex: 0 0 auto; }
     .navbar2__menu--wrap {
       margin-right: 1rem;
       display: flex;
@@ -753,8 +765,12 @@ body {
   height: 6.5rem;
   z-index: 100;
   position: relative; }
+  .navbar3__logo {
+    flex: 0 0 auto;
+    width: 33.33%; }
   .navbar3__menu {
-    margin-top: 2rem; }
+    width: 66.67%;
+    flex: 0 0 auto; }
     .navbar3__menu--wrap {
       margin-right: 1rem;
       display: flex;
@@ -779,6 +795,14 @@ body {
 @media (max-width: 576px) {
   #fp-nav {
     display: none; }
+  .navbar__logo {
+    display: none; }
+  .navbar1__logo {
+    display: none; }
+  .navbar2__logo {
+    display: none; }
+  .navbar3__logo {
+    display: none; }
   .navbar__menu {
     width: 100%; }
     .navbar__menu--wrap {
@@ -786,7 +810,7 @@ body {
       justify-content: center; }
       .navbar__menu--wrap > a {
         margin: unset;
-        padding: 3rem 0;
+        padding: unset;
         width: 22%; }
   .navbar1__menu {
     width: 100%; }
@@ -795,7 +819,7 @@ body {
       justify-content: center; }
       .navbar1__menu--wrap > a {
         margin: unset;
-        padding: 3rem 0;
+        padding: unset;
         width: 22%; }
   .navbar2__menu {
     width: 100%; }
@@ -804,7 +828,7 @@ body {
       justify-content: center; }
       .navbar2__menu--wrap > a {
         margin: unset;
-        padding: 3rem 0;
+        padding: unset;
         width: 22%; }
   .navbar3__menu {
     width: 100%; }
@@ -813,7 +837,7 @@ body {
       justify-content: center; }
       .navbar3__menu--wrap > a {
         margin: unset;
-        padding: 3rem 0;
+        padding: unset;
         width: 22%; }
   .intro__title {
     padding: 0 4rem; }

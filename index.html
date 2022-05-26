@@ -448,6 +448,15 @@
             navigationTooltips: ['Home','About Me','My Skills','My Projects','My Work'],
             showActiveTooltip: true,
             controlArrows: false,
+            
+            afterResponsive: function(isResponsive) {
+                if (isResponsive) {
+                    const divs = document.getElementsByTagName("div");
+                    for (let div of divs){
+                        div.style.animation = "none";
+                    }
+                }
+            },
             credits: {
                 enabled: false
             },
